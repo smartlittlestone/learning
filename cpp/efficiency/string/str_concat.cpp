@@ -59,13 +59,13 @@ int main()
     test_str_plus(loop_times);
     cout << endl;
 
+    test_str_stream(loop_times);
+    cout << endl;
+
     test_str_plus_equal(loop_times);
     cout << endl;
 
     test_str_append(loop_times);
-    cout << endl;
-
-    test_str_stream(loop_times);
     cout << endl;
 
     return 0;

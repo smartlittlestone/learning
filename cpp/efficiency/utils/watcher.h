@@ -19,7 +19,7 @@ class Watcher
             gettimeofday(&end, NULL);
             double used = (end.tv_sec - start.tv_sec) * 1000000 + (end.tv_usec - start.tv_usec);
             cout << "leave..." <<", time: " << end.tv_sec << "." << end.tv_usec 
-                << ", used: " << used * 1.0 / 100000 << "s" << endl;
+                << ", used: " << used * 1.0 / 1000000 << "s" << endl;
         }
 
 
